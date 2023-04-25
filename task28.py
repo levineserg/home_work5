@@ -7,9 +7,9 @@
 # 2 2
 #     4
 def Sum(A, B):
-    A += 1
-    if B == 1:
+    if B == 0:
         return A
+    A += 1
     return Sum(A, B - 1)
 
 A = int(input("введите число A: "))
